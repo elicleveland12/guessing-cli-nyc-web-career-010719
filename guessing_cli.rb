@@ -3,7 +3,10 @@ def run_guessing_game
   cg_num = rand(1..6)
   guess = gets.chomp.to_s 
   
-  while 
+  if guess == cg_num
+    puts "You guessed the correct number!"
+  elsif 
+ 
   
 end
 
