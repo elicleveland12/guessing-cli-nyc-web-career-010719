@@ -9,6 +9,8 @@ def run_guessing_game
     puts "The computer guessed #{cg_num}."
   elsif guess == "exit"
     break
+  else 
+    
  
   
 end
