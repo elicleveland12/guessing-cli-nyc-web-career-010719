@@ -8,11 +8,13 @@ def run_guessing_game
   when num
     puts "You guessed the correct number!"
     break
+  when !num 
+    puts "The computer guessed #{command}"
   when 'exit'
     puts "Goodbye!"
     break
    else
-    puts "The computer guessed #{num}."
+    puts "Enter a valid input."
     end
   end 
 end
