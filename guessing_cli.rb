@@ -7,6 +7,7 @@ def run_guessing_game
   case command.chomp
   when num
     puts "You guessed the correct number!"
+    break
   when 'exit'
     puts "Goodbye!"
     break
